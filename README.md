@@ -2,4 +2,4 @@
 
 ## 실습 기록
 
-- 2099-01-01: [git 프로젝트 생성](git/git-init/README.md)
+- 2025-09-10: [git 프로젝트 생성](git/git-init/README.md)
