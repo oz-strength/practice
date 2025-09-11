@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>숙소 예약 정보 작성 폼</h1>
+    <form action="">
+      <h1>숙소 예약하기</h1>
+      <div>
+        <label>
+          체크인:
+          <input type="date" />
+        </label>
+      </div>
+      <div>
+        <label>
+          성인:
+          <input type="number" min="1" max="10" value="1" />
+        </label>
+      </div>
+      <div>
+        <label
+          >어린이:
+          <input type="number" min="0" max="10" value="0" />
+        </label>
+      </div>
+      <div>
+        <h4>선호 객실 타입</h4>
+        <label> <input type="radio" name="room" /> 스탠다드</label>
+        <label> <input type="radio" name="room" /> 디럭스</label>
+        <label> <input type="radio" name="room" /> 스위트</label>
+      </div>
+      <label>
+        요청사항
+        <textarea placeholder="요청사항을 적어주세요" rows="10" cols="20"></textarea>
+      </label>
+      <div>
+        <input type="submit" value="예약하기" />
+      </div>
+    </form>
+  </body>
+</html>
