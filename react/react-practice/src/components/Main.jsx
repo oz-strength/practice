@@ -1,9 +1,9 @@
-import Form from "./Signup/Form";
+import Container from "./PostLimitSkip/Container";
 
 export default function Main() {
   return (
     <>
-      <Form />
+      <Container />
     </>
   );
 }
