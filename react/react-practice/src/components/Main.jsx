@@ -1,4 +1,4 @@
-import Container from "./PostLimitSkip/Container";
+import Container from "./PostComments/Container";
 
 export default function Main() {
   return (
